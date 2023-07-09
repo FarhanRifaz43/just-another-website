@@ -9,11 +9,12 @@ span {
 
 /* nav bar */
 nav {
-    background-color: grey;
+    background-color: rgb(46, 45, 45);
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-shadow: 20px 20px 5px grey;
+    
 }
 
 nav ul {
@@ -29,11 +30,11 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     font-style: italic;
-    color: black;
+    color: rgb(246, 246, 246);
 }
 
 nav ul li a:hover {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 .logo {
@@ -73,6 +74,21 @@ nav ul li a:hover {
     height: 40px;
     width: 90px;
 }
+.btn-primary2{
+    background-color: white;
+    border: 0;
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 90px;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: black;
+}
+.btn-primary2:hover{
+    background-color: grey;
+    color: white;
+}
 
 .buttons {
     margin: 10px;
@@ -81,7 +97,7 @@ nav ul li a:hover {
 /* services page */
 .services {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 100vh;
     background-image: url('/asset/image/footer-bg.png'), linear-gradient(#1f1f1f, #1f1f1f);
     background-blend-mode: color-burn;
@@ -89,14 +105,39 @@ nav ul li a:hover {
 
 .services-content {
     color: white;
+    text-align: left;
+    max-width: 600px;
+    margin-top: 300px;
 }
 
 .services-title {
     color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .services-description {
     color: white;
+    margin-bottom: 10px;
+}
+.ceo{
+    border: none;
+    border-radius: 100px;
+    width: 80px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.ceo-detail{
+    max-width: 110px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+.ceo-container{
+    display: flex;
+    align-items: center;
+}
+.ceo-container button{
+    margin-left: 30px;
 }
 .services-img{
     background-color: white;
@@ -105,6 +146,9 @@ nav ul li a:hover {
     margin-bottom: 6px;
     border: 0;
     border-radius: 5px;
+}
+.services-img:hover{
+    background-color: red;
 }
 .chart{
     height: 100px;
@@ -117,8 +161,65 @@ nav ul li a:hover {
 .serv1{
     margin-top: 200px;
     margin-right: 6px;
+    max-width: 0px;
 }
 .serv2{
     margin-top: 200px;
     margin-right: 100px;
 }
+.foot{
+    text-align: center;
+    max-width: 900px;
+    height: 500px;
+    margin: 60px 210px 0px 310px;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 100px
+
+}
+.blogs{
+    max-width: 300px;
+    margin: 30px;
+    padding-top: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px grey;
+}
+.blog-img{
+    height: 150px;
+    padding: 15px;
+}
+.blog-title{
+    padding: 15px;
+}
+.blog-desc{
+    padding: 15px;
+}
+.foot h1{
+    font-size: 50px;
+    padding-top: 60px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 0, 0, .7);
+    max-width: 800px;
+    margin-left: 350px;
+    padding: 10px;
+    border-radius: 10px;
+}
+section img{
+    height: 80px;
+}
+section h5{
+    max-width: 90px;
+}
+section p{
+    max-width: 400px;
+}
+
