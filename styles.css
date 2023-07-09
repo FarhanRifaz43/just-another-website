@@ -1,0 +1,124 @@
+/* shared styles */
+* {
+    margin: 0;
+}
+
+span {
+    color: red;
+}
+
+/* nav bar */
+nav {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 20px 20px 5px grey;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 20px 70px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+/* main page */
+.banner {
+    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-container {
+    padding: 270px 270px;
+}
+
+.banner-title {
+    color: white;
+    font-size: 60px;
+    max-width: 600px;
+    margin: 10px;
+}
+
+.banner-description {
+    color: white;
+    margin: 10px;
+}
+
+.btn-primary {
+    background-color: red;
+    border: 0;
+    color: white;
+    height: 40px;
+    width: 90px;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+/* services page */
+.services {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('/asset/image/footer-bg.png'), linear-gradient(#1f1f1f, #1f1f1f);
+    background-blend-mode: color-burn;
+}
+
+.services-content {
+    color: white;
+}
+
+.services-title {
+    color: white;
+}
+
+.services-description {
+    color: white;
+}
+.services-img{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 6px;
+    border: 0;
+    border-radius: 5px;
+}
+.chart{
+    height: 100px;
+    width: 100px;
+    padding: 40px 0 0 45px;
+}
+.serv-title{
+    padding-left: 35px;
+}
+.serv1{
+    margin-top: 200px;
+    margin-right: 6px;
+}
+.serv2{
+    margin-top: 200px;
+    margin-right: 100px;
+}
