@@ -43,7 +43,7 @@ nav ul li a:hover {
 
 /* main page */
 .banner {
-    background-image: url('/asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    background-image: url('./asset/image/background.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-position: center;
@@ -99,7 +99,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    background-image: url('/asset/image/footer-bg.png'), linear-gradient(#1f1f1f, #1f1f1f);
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(#1f1f1f, #1f1f1f);
     background-blend-mode: color-burn;
 }
 
